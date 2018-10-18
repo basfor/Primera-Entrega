@@ -1,29 +1,20 @@
 :root {
   --jumbotron-padding-y: 3rem;
 }
-    
 
 .jumbotron {
   padding-top: var(--jumbotron-padding-y);
   padding-bottom: var(--jumbotron-padding-y);
   margin-bottom: 0;
-  background-color: aquamarine  
+  background-color: #000000;
+  border-top-color: #FF0226;
+  
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) {v gc
   .jumbotron {
     padding-top: calc(var(--jumbotron-padding-y) * 2);
     padding-bottom: calc(var(--jumbotron-padding-y) * 2);
   }
-}
-
-.card: img{
-    filter: sepia(1)
-        transition:all ease 2s;
-    
-}
-
-.card:hover img{
-    filter: sepia(0)
 }
 
 .jumbotron p:last-child {
@@ -31,24 +22,41 @@
 }
 
 .jumbotron-heading {
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Prata', serif;
   font-weight: 300;
+  outline-color: #FF0226;
+    font-weight: 600
 }
 
 .jumbotron .container {
-  max-width: 40rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size-adjust: auto;
+     max-width: 40rem;
+    
 }
 
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
+      font-family: 'Open Sans', sans-serif;
 }
 
 footer p {
   margin-bottom: .25rem;
+      font-family: 'Open Sans', sans-serif;
+   
 }
 
-.jumbotron {
-    background: #000 url(fondojdsf.png) no-repeat 0 0;
-    background-size: cover
+.bg-lala {
+    background-color:darkgreen
 }
 
+.card img{
+    filter:grayscale(1);
+    transition: all ease 2s;
+}
+
+.card:hover img{
+    filter:grayscale(0); 
+}
