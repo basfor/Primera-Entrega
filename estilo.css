@@ -54,7 +54,7 @@ footer p {
 
 .card img{
     filter:grayscale(1);
-    transition: all ease 2s;
+    transition: all ease 1s;
 }
 
 .card:hover img{
